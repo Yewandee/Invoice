@@ -1,0 +1,141 @@
+.invoice-body {
+  max-width: 800px;
+  max-height: 1000px;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    width: 100px;
+    margin-right: 25%;
+}
+.status{
+    width: 100% !important;
+    height: 100px;
+    display: flex;
+    justify-content:space-between;
+}
+.status-one, .status-two{
+    color: #ffffff;
+    margin: 25px 10px 0 10px;
+    /* width: 25%; */
+}
+.container {
+  text-align: left;
+  line-height: 5px;
+  margin-top: 50px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.line-one, .line-two{
+    display: flex;
+    justify-content: space-between;
+}
+.line-one{
+    margin-top:80px ;
+}
+
+.issue {
+  text-align: end;
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  
+}
+
+th {
+  background-color: #c3c3c3;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.qty{
+    width: 30%;
+}
+.total {
+  text-align: end;
+  margin-top: 50px;
+  line-height: 10px;
+  display: flex;
+  justify-content:space-around;
+}
+.total-ones{
+     display: flex;
+  justify-content:space-around;
+}
+.total-one, .total-two{
+    width: 100%;
+}
+.total-one{
+    margin-left: 60%;
+}
+.total-two{
+    margin-right: 10%;
+}
+
+.payment-btn{
+    width: 100%;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    border: none;
+    gap: 2rem;
+}
+.payment-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.download {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #c1c1c1;
+}
+.download:hover {
+    color: green;
+}
+.proceed {
+    background-color: green;
+    color: #ffffff;
+}
+.proceed:hover {
+    color: #ffffff;
+}
+.pelpay{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    margin-left: 38% ;
+    background-color: #666666;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pelpay p{
+    text-align: center;
+}
+.chams{
+    margin-top: 5px;
+}
+.website{
+    text-decoration: none;
+    color: #000000;
+}
+.website a :hover{
+    color: #000000;
+}
+.lock{
+    padding: 5px;
+}
